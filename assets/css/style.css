@@ -258,13 +258,13 @@ body {
 }
 
 ::selection {
-  background: #f5a425;
+  background: rgb(60, 65, 143);
 
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #f5a425;
+  background: rgb(60, 65, 143);
 
   color: #fff;
 }
@@ -295,7 +295,7 @@ body {
 
   color: #fff;
 
-  background-color: #a12c2f;
+  background-color: rgb(60, 65, 143);
 
   padding: 12px 30px;
 
@@ -319,7 +319,7 @@ body {
 
   color: #fff;
 
-  background-color: #f5a425;
+  background-color: rgb(60, 65, 143);
 
   padding: 12px 30px;
 
@@ -369,7 +369,7 @@ header
 */
 
 .sub-header {
-  background-color: #a12c2f;
+  background-color: #3c418f;
 
   position: relative;
 
@@ -405,13 +405,13 @@ header
 }
 
 .sub-header .right-icons ul li a:hover {
-  color: #f5a425;
+  color: rgb(60, 65, 143);
 }
 
 .sub-header .left-content p em {
   font-style: normal;
 
-  color: #f5a425;
+  color: rgb(60, 65, 143);
 }
 
 .background-header {
@@ -448,7 +448,7 @@ header
 }
 
 .header-area {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(255, 255, 255);
 
   position: absolute;
 
@@ -569,12 +569,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #f5a425 !important;
+  color: rgb(60, 65, 143) !important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #f5a425 !important;
+  color: rgb(60, 65, 143) !important;
 
   opacity: 1;
 }
@@ -670,7 +670,7 @@ header
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
 
-  color: #f5a425 !important;
+  color: rgb(60, 65, 143) !important;
 
   padding-left: 25px;
 }
@@ -861,7 +861,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #f5a425;
+  color: rgb(60, 65, 143);
 }
 
 @media (max-width: 1200px) {
@@ -883,7 +883,7 @@ header
 
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #f5a425 !important;
+    color: rgb(60, 65, 143) !important;
 
     opacity: 1;
   }
@@ -975,7 +975,7 @@ header
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
 
-    color: #f5a425 !important;
+    color: rgb(60, 65, 143) !important;
   }
 
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
@@ -1205,7 +1205,7 @@ banner
 .main-banner .caption h2 em {
   font-style: normal;
 
-  color: #f5a425;
+  color: rgb(60, 65, 143);
 
   font-weight: 900;
 }
@@ -1465,7 +1465,7 @@ upcoming meetings
 */
 
 section.upcoming-meetings {
-  background-image: url(../../images/img/nw3.jpeg);
+  background-image: url(../../images/img/6b.jpeg);
 
   background-position: center center;
 
@@ -1741,7 +1741,7 @@ section.apply-now .item p {
 }
 
 .accordion-head.is-open {
-  color: #f5a425;
+  color: rgb(60, 65, 143);
 
   border-bottom: none;
 }
@@ -1819,7 +1819,7 @@ section.our-courses {
 }
 
 .our-courses .item .down-content .info ul li i {
-  color: #f5a425;
+  color: rgb(60, 65, 143);
 
   font-size: 14px;
 }
@@ -2036,7 +2036,7 @@ section.our-facts h2 {
 .count-digit {
   margin: 5px 0px;
 
-  color: #f5a425;
+  color: rgb(60, 65, 143);
 
   font-weight: 700;
 
@@ -2276,7 +2276,7 @@ section.contact-us .right-info ul li span {
 }
 
 .footer p a {
-  color: #f5a425;
+  color: rgb(60, 65, 143);
 }
 
 .footers {
@@ -2622,7 +2622,7 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .down-content .share ul li a:hover {
-  color: #f5a425;
+  color: rgb(60, 65, 143);
 }
 
 /* Meeting item column */
@@ -2781,7 +2781,7 @@ responsive
   }
 
   .sub-header .right-icons {
-    text-align: center;
+    text-align: right;
   }
 
   .main-nav .nav .sub-menu {
@@ -2813,4 +2813,9 @@ responsive
     padding-bottom: 5px;
     font-size: 15px;
   }
+}
+
+
+.img-container img{
+  margin-top: 15px;
 }
